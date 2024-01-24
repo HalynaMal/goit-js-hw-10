@@ -1,0 +1,2 @@
+import"./assets/modulepreload-polyfill-ec808ebb.js";/* empty css                      */import{f as s}from"./assets/vendor-992cd48f.js";document.querySelector(button[data-start]);s("#datetime-picker",{enableTime:!0,dateFormat:"Y-m-d H:i",clickOpens:!0});function t(o){const e=Math.floor(o/864e5),n=Math.floor(o%864e5/36e5),r=Math.floor(o%864e5%36e5/6e4),c=Math.floor(o%864e5%36e5%6e4/1e3);return{days:e,hours:n,minutes:r,seconds:c}}console.log(t(2e3));console.log(t(14e4));console.log(t(2414e4));
+//# sourceMappingURL=commonHelpers.js.map
