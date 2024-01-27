@@ -9,7 +9,6 @@ const hour = document.querySelector('.value[ data-hours]');
 const minute = document.querySelector('.value[ data-minutes]');
 const second = document.querySelector('.value[ data-seconds]');
 btnStart.disabled = true;
-let date = Date.now();
 let userSelectedDate;
 let difference;
 let setIntervalId;
